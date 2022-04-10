@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hoja.estilos.revista.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+</body>
+</html>
+<title>Document</title>
+</head>
+<body>
+    <!--Comentario en html-->
+    <h2>Formulario de para recibir recetas semanales de croquetas</h2>
+    <h3>Rellena los siguientes campos con tus datos personales:</h3>
+    <form>
+        <!--Caja de texto corto-->
+        
+        <div>
+        <h4>
+            Introduzca su nombre: <br>
+        <input type= "text" id="nombre">
+        <br><br>
+        </h4>
+    
+        
+        <!-- correo electronico-->
+        
+            
+        <h4>
+        Introduzca su correo electronico:<br>
+        <input type= "text" id="correo">
+        <br><br>
+        </h4>
+    
+        <!--Contraseña-->
+            
+        <h4>
+        Escriba una contraseña para su cuenta:<br>
+        <input type="password">
+        <br><br>
+        </h4>
+    
+        
+        <!--Caja de texto largo-->
+
+        <h4>
+        Explique sus razones para recibir recetas de croquetas: <br>
+        <textarea rows="8" cols="40">Mi razón para recibir recetas de croquetas es...</textarea>
+        <br><br>
+        </h4>
+        </div>
+        
+        <div>
+        <h4>
+                    <!---Lista de chequeo-->
+
+        Elige el nivel de complejidad de las recetas que quiere recibir : <br>
+        <input type="checkbox" name ="deporte">Fácil</input><br>
+        <input type="checkbox" name ="deporte">Normal</input><br>
+        <input type="checkbox" name ="deporte">Difícil</input><br>
+        <input type="checkbox" name ="deporte">Complejidad alta</input>
+        <br><br>
+        </h4>
+    
+        
+        <!---Botón redondo de selección única-->
+        
+        <h4>
+        Elige tu género:<br>
+        <input type="radio" name="género">Hombre</input><br>
+        <input type="radio" name="género">Mujer</input><br>
+        <input type="radio" name="género">No binario</input>
+        <br><br>
+        </h4>
+        
+        <!---Despegable-->
+        <h4>
+        Escoge que día quiere recibir las recetas:<br>
+        <select name="dia" id="">
+        <option value="" id="">Lunes</option><br>
+        <option value="" id="">Martes</option><br>
+        <option value="" id="">Miércoles</option><br>
+        <option value="" id="">Jueves</option><br>
+        <option value="" id="">Viernes</option><br>
+        <option value="" id="">Sábado</option><br>
+        <option value="" id="">Domingo</option>
+        <br><br>
+        </h4>
+
+    </select>
+    
+    </select>
+    
+    <h4>
+        <!---fECHA DEL CALENDARIO-->
+        Introduce tu fecha de nacimiento: <br>
+        <input type="date">
+<br><br>   </h4>
+</div>
+        </form>
+    <script lang="JavaScript">
+        var apodo=document.getElementById("nombre").value;
+        var correo=document.getElementById("correo").value;
+    </script>
+</body>
+</html>
